@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val str: String = "あういえお"
-        println(str)
+        val str:  String = "あうい" + "えお"
+        println("aoi" + str)
     }
 }
